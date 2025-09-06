@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "HealthStack",
+    description: "A project with an advanced radiology report generator using GenAI.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    tags: ["React", "TailwindCSS", "Supabase"," OpenAI","Base44"],
+    demoUrl: "https://healthstack.base44.app/",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "IncomeSense",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "IncomeSense is a smart, responsive web app that helps users allocate income wisely using intuitive planning, tracking, and visual insights.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Vite", "Node.js"," MongoDB"],
+    demoUrl: "https://incomesense-vladimirlalith.vercel.app/",
+    githubUrl: "https://github.com/VladimirLalith/IncomeSense",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Chess Game",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A browser-based chess game built with React and TypeScript.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Typescript", "CSS"],
+    demoUrl: "https://chess-vladimirlalith.vercel.app/",
+    githubUrl: "https://github.com/VladimirLalith/ChessGame",
   },
 ];
 
@@ -63,7 +63,7 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span key={tag} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
                   ))}
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/VladimirLalith"
           >
             Check My Github <ArrowRight size={16} />
           </a>

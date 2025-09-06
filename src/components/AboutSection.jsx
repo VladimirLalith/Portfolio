@@ -16,14 +16,12 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Looking forward to working with you to bring your ideas to life!
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
+              I am passionate about creating elegant solutions to complex
+              problems, and I am constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
               landscape.
             </p>
